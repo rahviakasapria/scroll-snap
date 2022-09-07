@@ -1,0 +1,50 @@
+body {
+  padding-top: 100px;
+  background: #688eb4;
+  font-family: sans-serif;
+}
+
+.scroll-container,
+.scroll-area {
+  max-width: 850px;
+  height: 500px;
+  font-size: 60px;
+}
+
+.scroll-container {
+  overflow: auto;
+  scroll-snap-type: y proximity;
+  height: 500px;
+}
+
+.scroll-area {
+  scroll-snap-align: start;
+}
+
+.scroll-container,
+.scroll-area {
+  margin: 0 auto;
+}
+
+.scroll-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.scroll-area:nth-of-type(1) {
+  background: #40a6c0;
+}
+
+.scroll-area:nth-child(2) {
+  background: #0202025a;
+}
+
+.scroll-area:nth-child(3) {
+  background: #83b468;
+}
+
+.scroll-area:nth-child(4) {
+  background: #e7c0c0;
+}
